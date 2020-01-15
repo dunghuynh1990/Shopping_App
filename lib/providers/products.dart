@@ -33,16 +33,22 @@ class Products with ChangeNotifier {
       imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cast-Iron-Pan.jpg/1024px-Cast-Iron-Pan.jpg',
     ),
   ];
+
   List<Product> get items {
     return [..._items];
   }
 
+  List<Product> get favoriteItems {
+    return _items.where((prodItem) =>prodItem.isFavorite).toList();
+  }
+
   void addProduct(value) {
-    _items.add(value);
+//    _items.add(value);
     notifyListeners();
   }
 
   Product findById(String id) {
     return _items.firstWhere((prod) => prod.id == id);
   }
+
 }
