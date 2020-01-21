@@ -10,12 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c77b23fb-b6d1-4ea4-93ea-b0cf503e9a15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/screens/user_products_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/user_product_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/edit_product_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/app_drawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/app_drawer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/cart_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/cart_item.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/user_products_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/user_products_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -36,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+            <state relative-caret-position="312">
+              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -48,8 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/widgets/order_item.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
+            <state relative-caret-position="276">
               <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -57,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/widgets/product_item.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+            <state relative-caret-position="564">
+              <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -67,10 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/widgets/cart_item.dart">
+        <entry file="file://$PROJECT_DIR$/lib/screens/user_products_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            <state relative-caret-position="336">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -79,15 +87,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/screens/user_products_screen.dart">
+        <entry file="file://$PROJECT_DIR$/lib/screens/edit_product_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#409#594#0" />
-                <element signature="e#642#973#0" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/Flutter/flutter/packages/flutter/lib/src/material/app_bar.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1884">
+              <caret line="178" column="2" selection-start-line="178" selection-start-column="2" selection-end-line="178" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -95,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/widgets/app_drawer.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="372">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -107,41 +119,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/widgets/user_product_item.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="192">
               <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/providers/cart.dart">
+        <entry file="file://$PROJECT_DIR$/lib/widgets/products_grid.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
-              <folding>
-                <element signature="e#688#1245#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/providers/product.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/providers/products.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+            <state relative-caret-position="288">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#941#1175#0" />
               </folding>
             </state>
           </provider>
@@ -176,7 +166,6 @@
         <option value="$PROJECT_DIR$/lib/widgets/badge.dart" />
         <option value="$PROJECT_DIR$/lib/screens/product_detail_screen.dart" />
         <option value="$PROJECT_DIR$/lib/providers/orders.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/screens/products_overview_screen.dart" />
         <option value="$PROJECT_DIR$/lib/screens/orders_screen.dart" />
         <option value="$PROJECT_DIR$/lib/screens/cart_screen.dart" />
@@ -184,18 +173,20 @@
         <option value="$PROJECT_DIR$/lib/providers/cart.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/product_item.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/cart_item.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/app_drawer.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/user_product_item.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/screens/user_products_screen.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/edit_product_screen.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-960" />
-    <option name="y" value="-81" />
+    <option name="y" value="-80" />
     <option name="width" value="960" />
-    <option name="height" value="1031" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -206,45 +197,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="providers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -266,6 +218,39 @@
               <item name="shop_app" type="58d84e3e:PackageViewProjectNode" />
               <item name="shop_app" type="616d4139:PackageViewModuleNode" />
               <item name="widgets" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -394,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579492655256</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adding &quot;Manage Products&quot; page">
+      <created>1579507574041</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579507574042</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -407,10 +399,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-960" y="-81" width="960" height="1031" extended-state="0" />
+    <frame x="-960" y="-80" width="960" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30283225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30283225" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -419,8 +411,8 @@
       <window_info id="Resources Explorer" order="6" weight="0.32956383" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.23003195" />
-      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.46538872" />
+      <window_info active="true" anchor="bottom" id="Dart Analysis" order="0" visible="true" weight="0.2238342" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.43834198" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3287879" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.3287879" />
@@ -429,7 +421,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.17891374" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3287234" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3284974" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -453,21 +445,12 @@
     <MESSAGE value="Adding order screen (fix)" />
     <MESSAGE value="Adding Side drawer and expand list" />
     <MESSAGE value="Adding snackbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding snackbar" />
+    <MESSAGE value="Adding &quot;Manage Products&quot; page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding &quot;Manage Products&quot; page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widgets/products_grid.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/widgets/badge.dart">
       <provider selected="true" editor-type-id="text-editor">
@@ -490,13 +473,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -568,29 +544,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widgets/order_item.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/providers/cart.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
           <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
           <folding>
             <element signature="e#688#1245#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widgets/product_item.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -607,18 +566,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        <state relative-caret-position="312">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/order_item.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/product_item.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Flutter/flutter/packages/flutter/lib/src/material/app_bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1884">
+          <caret line="178" column="2" selection-start-line="178" selection-start-column="2" selection-end-line="178" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/widgets/app_drawer.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="372">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -627,20 +617,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/widgets/user_product_item.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="192">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/products_grid.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/user_products_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="336">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#409#594#0" />
-            <element signature="e#642#973#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/edit_product_screen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
         </state>
       </provider>
     </entry>
