@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:shop_app/providers/product.dart';
+import 'package:shop_app/providers/products.dart';
 
 class EditProductScreen extends StatefulWidget {
   static const routeName = '/edit-prodcut';
@@ -35,7 +37,6 @@ class _EditProductScreenState extends State<EditProductScreen> {
     _priceFocusNode.dispose();
     _descriptionFocusNode.dispose();
     _imageUrlController.dispose();
-    _descriptionFocusNode.dispose();
     super.dispose();
   }
 
@@ -59,10 +60,8 @@ class _EditProductScreenState extends State<EditProductScreen> {
       return;
     }
     _form.currentState.save();
-    print(_editedProduct.title);
-    print(_editedProduct.description);
-    print(_editedProduct.price);
-    print(_editedProduct.imageUrl);
+    Provider.of<Products>(context, listen: false).addProduct(_editedProduct);
+    Navigator.of(context).pop();
   }
 
   @override
@@ -92,12 +91,6 @@ class _EditProductScreenState extends State<EditProductScreen> {
                   FocusScope.of(context).requestFocus(_priceFocusNode);
                   // if tap next button on keyboard will move cursor to Price textfield
                 },
-//                validator: (value) {
-//                  if (value.isEmpty) {
-//                    return 'Please provide a value';
-//                  }
-//                  return null;
-//                },
                 onSaved: (value) {
                   _editedProduct = Product(
                     id: null,
