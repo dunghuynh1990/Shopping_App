@@ -26,7 +26,8 @@ class ProductItem extends StatelessWidget {
         ),
         footer: GridTileBar(
           backgroundColor: Colors.black87,
-          leading: Consumer<Product>( // Use to identify specific widget to rebuild when listen set to false
+          leading: Consumer<Product>(
+            // Use to identify specific widget to rebuild when listen set to false
             builder: (ctx, product, _) => IconButton(
               icon: Icon(product.isFavorite ? Icons.favorite : Icons.favorite_border),
               color: Theme.of(context).accentColor,
