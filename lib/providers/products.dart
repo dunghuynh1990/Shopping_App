@@ -83,7 +83,7 @@ class Products with ChangeNotifier {
           'description': product.description,
           'price': product.price,
           'imageUrl': product.imageUrl,
-          'favorite': product.isFavorite,
+          'isFavorite': product.isFavorite,
         }),
       );
       final newProduct = Product(
