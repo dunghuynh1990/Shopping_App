@@ -93,8 +93,8 @@ class _OrderButtonState extends State<OrderButton> {
               setState(() {
                 _isLoading = false;
               });
-
               widget.cart.clear();
+              Navigator.of(context).pop();
             },
       textColor: Theme.of(context).primaryColor,
     );
