@@ -5,8 +5,10 @@ import 'package:shop_app/providers/product.dart';
 import 'package:shop_app/screens/product_detail_screen.dart';
 
 class ProductItem extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
+    final scaffold = Scaffold.of(context);
     final product = Provider.of<Product>(context, listen: false); // listen: false => not auto rebuild widget again
     final cart = Provider.of<Cart>(context, listen: false);
     return ClipRRect(
@@ -31,8 +33,20 @@ class ProductItem extends StatelessWidget {
             builder: (ctx, product, _) => IconButton(
               icon: Icon(product.isFavorite ? Icons.favorite : Icons.favorite_border),
               color: Theme.of(context).accentColor,
-              onPressed: () {
-                product.toggleFavoriteStatus();
+              onPressed: () async{
+                try {
+                  await product.toggleFavoriteStatus(product.id);
+                } catch (error) {
+                  scaffold.hideCurrentSnackBar();
+                  scaffold.showSnackBar(
+                    SnackBar(
+                      content: Text(
+                        'Favorite product failed!',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  );
+                }
               },
             ),
           ),
@@ -48,8 +62,8 @@ class ProductItem extends StatelessWidget {
                 product.price,
                 product.title,
               );
-              Scaffold.of(context).hideCurrentSnackBar();
-              Scaffold.of(context).showSnackBar(SnackBar(
+              scaffold.hideCurrentSnackBar();
+              scaffold.showSnackBar(SnackBar(
                 content: Text('Added item to cart!'),
                 duration: Duration(seconds: 2),
                 action: SnackBarAction(
