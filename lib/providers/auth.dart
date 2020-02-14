@@ -41,7 +41,6 @@ class Auth with ChangeNotifier {
           },
         ),
       );
-      print(json.decode(response.body));
       final responseData = json.decode(response.body);
       if (responseData['error'] != null) {
         throw HttpException(responseData['error']['message']);
@@ -58,11 +57,13 @@ class Auth with ChangeNotifier {
       _autoLogout();
       notifyListeners();
       final prefs = await SharedPreferences.getInstance();
-      final userData = json.encode({
-        'token': _token,
-        'userId': _userId,
-        'expiryDate': _expiryDate.toIso8601String(),
-      },);
+      final userData = json.encode(
+        {
+          'token': _token,
+          'userId': _userId,
+          'expiryDate': _expiryDate.toIso8601String(),
+        },
+      );
       prefs.setString('userData', userData);
     } catch (error) {
       throw error;
@@ -79,7 +80,7 @@ class Auth with ChangeNotifier {
 
   Future<bool> tryAutoLogin() async {
     final prefs = await SharedPreferences.getInstance();
-    if(prefs.containsKey('userData')) {
+    if(!prefs.containsKey('userData')) {
       return false;
     }
     final extractedUserData = json.decode(prefs.getString('userData')) as Map<String, Object>;
@@ -96,7 +97,7 @@ class Auth with ChangeNotifier {
     return true;
   }
 
-  void logout() {
+  Future<void> logout() async{
     _token = null;
     _userId = null;
     _expiryDate = null;
@@ -105,6 +106,8 @@ class Auth with ChangeNotifier {
       _authTimer = null;
     }
     notifyListeners();
+    final prefs = await SharedPreferences.getInstance();
+    prefs.clear();
   }
 
   void _autoLogout() {
