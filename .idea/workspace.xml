@@ -10,9 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c77b23fb-b6d1-4ea4-93ea-b0cf503e9a15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/helpers/custom_route.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/product_detail_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/product_detail_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/product_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/product_item.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/app_drawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/app_drawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/order_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/order_item.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -30,11 +32,53 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_28" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/screens/product_detail_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/widgets/order_item.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/helpers/custom_route.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/widgets/app_drawer.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -92,7 +136,6 @@
       <list>
         <option value="$PROJECT_DIR$/lib/models/product.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/badge.dart" />
-        <option value="$PROJECT_DIR$/lib/widgets/order_item.dart" />
         <option value="$PROJECT_DIR$/lib/providers/cart.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/cart_item.dart" />
         <option value="$PROJECT_DIR$/lib/screens/edit_product_screen.dart" />
@@ -106,13 +149,16 @@
         <option value="$PROJECT_DIR$/lib/providers/products.dart" />
         <option value="$PROJECT_DIR$/lib/screens/user_products_screen.dart" />
         <option value="$PROJECT_DIR$/lib/providers/orders.dart" />
-        <option value="$PROJECT_DIR$/lib/widgets/app_drawer.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/providers/auth.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/screens/auth-screen.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/product_item.dart" />
         <option value="$PROJECT_DIR$/lib/screens/product_detail_screen.dart" />
+        <option value="$PROJECT_DIR$/lib/widgets/order_item.dart" />
+        <option value="$PROJECT_DIR$/helpers/custome_route.dart" />
+        <option value="$PROJECT_DIR$/lib/widgets/app_drawer.dart" />
+        <option value="$PROJECT_DIR$/lib/helpers/custom_route.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
       </list>
     </option>
   </component>
@@ -126,7 +172,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -137,16 +183,6 @@
             <path>
               <item name="shop_app" type="58d84e3e:PackageViewProjectNode" />
               <item name="shop_app" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="shop_app" type="58d84e3e:PackageViewProjectNode" />
-              <item name="shop_app" type="616d4139:PackageViewModuleNode" />
-              <item name="screens" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="shop_app" type="58d84e3e:PackageViewProjectNode" />
-              <item name="shop_app" type="616d4139:PackageViewModuleNode" />
-              <item name="widgets" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -159,6 +195,23 @@
             <path>
               <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop_app" type="b2602c69:ProjectViewProjectNode" />
@@ -185,6 +238,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/lib/widgets" />
       <recent name="$PROJECT_DIR$/lib/providers" />
@@ -507,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581911501466</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Adding Sliver for Product Detail page">
+      <created>1581922328965</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1581922328966</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -521,9 +582,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-960" y="-81" width="960" height="1032" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48433048" visible="true" weight="0.24400872" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48433048" weight="0.24400872" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -533,14 +593,14 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" sideWeight="0.49673203" weight="0.2" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.49891067" visible="true" weight="0.26702127" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49891067" weight="0.26702127" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3287234" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.4983845" weight="0.32776934" />
       <window_info anchor="bottom" id="Debug" order="5" />
       <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49919224" weight="0.32746115" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50108933" side_tool="true" weight="0.29015544" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49782136" weight="0.1861702" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49782136" visible="true" weight="0.1861702" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32659575" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32956383" />
@@ -553,7 +613,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Editing products" />
     <MESSAGE value="Deleting products" />
     <MESSAGE value="Adding Http package" />
     <MESSAGE value="Setting Loading Indicator and handling errors" />
@@ -578,7 +637,8 @@
     <MESSAGE value="More Built-in Animation &amp; Transition Widgets" />
     <MESSAGE value="Adding images" />
     <MESSAGE value="Setting default image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting default image" />
+    <MESSAGE value="Adding Sliver for Product Detail page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Sliver for Product Detail page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -640,13 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widgets/order_item.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -763,16 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widgets/app_drawer.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/user_products_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -874,20 +917,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/product_detail_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/order_item.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/app_drawer.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/helpers/custom_route.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>
