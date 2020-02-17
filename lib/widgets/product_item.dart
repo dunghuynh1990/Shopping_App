@@ -6,7 +6,6 @@ import 'package:shop_app/providers/product.dart';
 import 'package:shop_app/screens/product_detail_screen.dart';
 
 class ProductItem extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     final scaffold = Scaffold.of(context);
@@ -17,8 +16,9 @@ class ProductItem extends StatelessWidget {
       borderRadius: BorderRadius.circular(10),
       child: GridTile(
         child: GestureDetector(
-          child: Image.network(
-            product.imageUrl,
+          child: FadeInImage(
+            placeholder: AssetImage('assets/images/product-placeholder.png'),
+            image: NetworkImage(product.imageUrl),
             fit: BoxFit.cover,
           ),
           onTap: () {
@@ -35,7 +35,7 @@ class ProductItem extends StatelessWidget {
             builder: (ctx, product, _) => IconButton(
               icon: Icon(product.isFavorite ? Icons.favorite : Icons.favorite_border),
               color: Theme.of(context).accentColor,
-              onPressed: () async{
+              onPressed: () async {
                 try {
                   await product.toggleFavoriteStatus(authData.token, authData.userId);
                 } catch (error) {
