@@ -1,16 +1,32 @@
-# shop_app
+# Shopping App
 
-A new Flutter application.
+A Flutter project for Android and iOS.
 
-## Getting Started
+Course: [Learn Flutter & Dart to Build iOS & Android Apps](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/)
 
-This project is a starting point for a Flutter application.
+## Topics cover in the project
 
-A few resources to get you started if this is your first Flutter project:
+- Routes and Navigations
+- Fonts and Images
+- State Management using [Provider](https://pub.dev/packages/provider)
+- App structure: models, providers, screens, widgets, helpers
+- Input & Forms
+- Firebase Authentication (register/login)
+- Firebase Database
+- Send/Receive Http Requests
+- Future/Async
+- Fetching Data, initState & "of(context)"
+- Errors Handling
+- FutureBuilder Widget
+- Auto login function (shared preference)
+- AnimatedBuilder Widget
+- Hero Widget
+- Slivers Widget
+- Custom Route Transitions
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Packages
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [provider: 4.0.3](https://pub.dev/packages/provider)
+- [intl: ^0.16.1](https://pub.dev/packages/intl)
+- [http: ^0.12.0+4](https://pub.dev/packages/http)
+- [shared_preferences: ^0.5.6+1](https://pub.dev/packages/shared_preferences)
